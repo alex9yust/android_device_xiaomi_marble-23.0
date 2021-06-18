@@ -1356,8 +1356,8 @@ system_ext/lib64/libmmosal.so|638c669cf9603fc94217573f047e64675fafcc9e
 system_ext/lib64/libmmparser_lite.so|e1549b302ebe1c440c647cfe9606481741b1e158
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|a3a103902ba4d0d2a41f7e6d61798cf846cbcc0d
 vendor/bin/hw/vendor.qti.media.c2audio@1.0-service|a395d05f3004f2a5150dfd4510eed0c50d671974
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|542d2ae2a92ee21dbb63716ff49392e8e6e433f4
-vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc|51841b9c67dd26b7fe82e24109f1e0a663a3e04a
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|542d2ae2a92ee21dbb63716ff49392e8e6e433f4|8b8548ce29e446a49831c9ba557e6f8265f4ab32
+vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc|51841b9c67dd26b7fe82e24109f1e0a663a3e04a|2e454f9248cd6fb74216d360533e58e7246d5dbe
 vendor/etc/media_codecs_performance_ukee.xml|ac1e940362824300d8b27463e2273ef044af8b30
 vendor/etc/media_codecs_ukee.xml|2a98209e4853ae1c27a56f7d864e4ab56df95787|d9673afaa68015f0078d61df70c06b6b218f9b64
 vendor/etc/media_profiles_ukee.xml|19060660b7111f6cb1b07cd390c894dc9610fa57
@@ -1965,7 +1965,7 @@ vendor/firmware/vpu20_4v.mdt
 
 # Widevine DRM - from diting
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine|f86e5d09432ab0b7958cf4b7a345d1b339bf06b3
-vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976|c03636aaf4b8b3e5d2cf56704a4676b8f2920478
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
 vendor/lib64/liboemcrypto.so|b12f1afb55acfaf3e884227aa725e8d4ac7eb92c
 vendor/lib64/libtrustedapploader.so|4642c29a1bbc2b4468ed6d5d97bde8a58f859ebd

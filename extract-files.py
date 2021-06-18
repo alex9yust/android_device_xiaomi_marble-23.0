@@ -78,6 +78,14 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/camera/pureView_parameter.xml': blob_fixup().regex_replace(
         r'=([0-9]+)>', r'="\1">'
     ),
+    (
+        'vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc',
+        'vendor/etc/init/vendor.qti.media.c2@1.0-service.rc',
+        'vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc',
+    ): blob_fixup().regex_replace(
+        'writepid /dev/cpuset/foreground/tasks',
+        'task_profiles ProcessCapacityHigh',
+    ),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .add_line_if_missing('sensors.xiaomi.v2.so'),
     'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
