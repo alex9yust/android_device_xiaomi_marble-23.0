@@ -242,6 +242,18 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
+# Logging
+SPAMMY_LOG_TAGS := \
+    libsensor-ssccalapi \
+    sensors \
+    SensorService \
+    sensors-hal
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+PRODUCT_VENDOR_PROPERTIES += \
+    $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
+endif
+
 # Media
 PRODUCT_PACKAGES += \
     init.qti.media.rc \
