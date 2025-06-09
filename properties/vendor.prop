@@ -25,6 +25,7 @@ ro.vendor.audio.soundtrigger.xatx.cnn.level=95
 ro.vendor.audio.soundtrigger.xatx.gmm.level=54
 ro.vendor.audio.soundtrigger.xatx.gmm.user.level=54
 ro.vendor.audio.soundtrigger.xatx.vop.level=0
+ro.vendor.audio.stereo_master_volume=1
 ro.vendor.audio.support.sound.id=true
 vendor.audio.adm.buffering.ms=2
 vendor.audio.feature.a2dp_offload.enable=true
@@ -104,6 +105,7 @@ vendor.display.enable_early_wakeup=1
 vendor.display.enable_hdr10_gpu_target=1
 vendor.display.enable_optimize_refresh=0
 vendor.display.enable_rc_support=1
+vendor.display.idle_time=0
 vendor.display.use_smooth_motion=1
 vendor.display.vds_allow_hwc=0
 
@@ -114,6 +116,10 @@ persist.vendor.dpm.vndr.idletimer.mode=default
 
 # DRM
 drm.service.enabled=true
+
+# Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_location=1080|920|210|local:4630946370515662721,1080|920|210|local:4630946480857061761
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
@@ -205,6 +211,9 @@ ro.vendor.sensors.xiaomi.single_tap=true
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # USB
 sys.usb.mtp.batchcancel=1
