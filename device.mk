@@ -288,18 +288,20 @@ PRODUCT_PACKAGES += \
     SettingsResMarble \
     SystemUIResMarble \
     WifiResMarble \
-    WifiResMarbleCN \
+    WifiResMarbleCN
 
 PRODUCT_PACKAGES += \
-    DialerResXiaomi \
     FrameworksResTarget \
-    FrameworksResXiaomi \
-    LineageResXiaomi \
-    SettingsProviderResXiaomi \
-    SettingsResXiaomi \
     WifiResTarget \
     WifiResTarget_cape \
     WifiResTarget_spf
+
+PRODUCT_PACKAGES += \
+    DialerResXiaomi \
+    FrameworksResXiaomi \
+    LineageResXiaomi \
+    SettingsProviderResXiaomi \
+    SettingsResXiaomi
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
