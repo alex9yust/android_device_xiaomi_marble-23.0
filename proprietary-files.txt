@@ -1,10 +1,5 @@
 # All unpinned blobs below are extracted from marble OS2.0.5.0.VMRMIXM
 
-# Current blobs with ELF checks disabled:
-# libmcs depends on libar-acdb, libagm, libats, liblx-osal which are gnu makefile targets
-# libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
-# libqtigefar depends on libar-pal, which is a gnu makefile target
-
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/ukee_mtp/Forte_acdb_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:vendor/etc/acdbdata/ukee_mtp/Forte_workspaceFileXml.qwsp
@@ -118,9 +113,9 @@ vendor/lib64/libaudio_log_utils.so|b63ceb3da32934cbd059f26f23b6625951509867
 vendor/lib64/libcapiv2svacnnvendor.so|53c27d0f2b97300a4694dc27cdb79210a82d42ab
 vendor/lib64/libcapiv2svarnnvendor.so|b044ca4333afff15a5ecf3a7d04d8b9f4a7932d8
 vendor/lib64/libcapiv2uvvendor.so|5622bfe438265a926f87fb4e04f2af603ff80548
-vendor/lib64/libmcs.so;DISABLE_CHECKELF|67d8e69877a1e2c3dc66ae7d70f0040a7fb6de8a
+vendor/lib64/libmcs.so|67d8e69877a1e2c3dc66ae7d70f0040a7fb6de8a
 vendor/lib64/libpal_net_if.so|0b29fc5571632ad576976902f0a3b0b5ffe8e779
-vendor/lib64/libqtigefar.so;DISABLE_CHECKELF|19dcf2b7b69188741475dda267ed21c008a809f5
+vendor/lib64/libqtigefar.so|19dcf2b7b69188741475dda267ed21c008a809f5
 vendor/lib64/soundfx/libasphere.so|5b70a2ecfd6c72a993420191618aa71a5f814012
 
 # Audio firmware
@@ -1376,7 +1371,7 @@ vendor/lib64/libqc2audio_base.so|8eda523c893863e360c9683135a01f27a8270fb1
 vendor/lib64/libqc2audio_basecodec.so|b3885ed642e34ea6ac7bf69b108cfea42a242d18
 vendor/lib64/libqc2audio_core.so|5d36387cc2c92abbbc61a584fd2c9d87ff836135
 vendor/lib64/libqc2audio_hooks.so|af60f201787cb06ce2ded96ae72dafe8eb604198
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF|e810ee6e48fd32b6a9eb9e25ccbb8f4873e3e994
+vendor/lib64/libqc2audio_hwaudiocodec.so|e810ee6e48fd32b6a9eb9e25ccbb8f4873e3e994
 vendor/lib64/libqc2audio_platform.so|c5ee9c04f5b813a4cf2d9d1a14606fcc3e50658a
 vendor/lib64/libqc2audio_swaudiocodec.so|d7f12d55b6d93f691ad42d77996680cd0b46da51
 vendor/lib64/libqc2audio_utils.so|7f1e09a9a2ae176d3c2f5ae19681f90b38d6bf67
