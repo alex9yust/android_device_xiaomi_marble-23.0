@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from marble OS2.0.204.0.VMRMIXM
+# All unpinned blobs below are extracted from marble OS2.0.205.0.VMRMIXM
 # dada: dada-user 16 BP2A.250605.015 OS2.0.217.0.WOCMIXM release-keys
 # diting: diting-user 15 AQ3A.241006.001 OS2.0.202.0.VLFMIXM release-keys
 # ingot: ingot-user 14 UKQ1.240227.165 release-keys
