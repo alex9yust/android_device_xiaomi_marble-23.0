@@ -1,6 +1,6 @@
 # All unpinned blobs below are extracted from marble OS2.0.205.0.VMRMIXM
 # dada: dada-user 16 BP2A.250605.015 OS2.0.217.0.WOCMIXM release-keys
-# diting: diting-user 15 AQ3A.241006.001 OS2.0.202.0.VLFMIXM release-keys
+# diting: diting-user 15 AQ3A.241006.001 OS2.0.203.0.VLFMIXM release-keys
 # ingot: ingot-user 14 UKQ1.240227.165 release-keys
 
 # ACDB
@@ -1558,7 +1558,7 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|961321653e924726bd01af6bfbb33c6
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|33008343e8ac15821278faecc1c234e8bea3fe2d
 system_ext/priv-app/QtiTelephony/QtiTelephony.apk;REQUIRED=QtiTelephonyCompat|54f19b843a9d5a211029758b3329fcbb193b03d3
 system_ext/priv-app/ims/ims.apk;REQUIRED=QtiTelephonyCompat|d1fdf059ff61d596e358cd930384eb22ba1e6537
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|7a05751108e056e64037819a9fe2f74447c704e9
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|2117fd86aff9f24c1539e99773ef7a666fbe655e
 vendor/app/IWlanService/IWlanService.apk|649a3ee3ceaa406a75268b7d3183761980b03d88
 vendor/bin/hw/qcrilNrd|d526b1eea576ffb9f05fbb864d57d64a9f28321f
 vendor/bin/adpl|de4f8f57ce0d41cb0fc74aec6e5e7830d10157e7
