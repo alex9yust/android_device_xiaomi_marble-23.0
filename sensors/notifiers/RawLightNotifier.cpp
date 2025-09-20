@@ -22,6 +22,8 @@ static const std::string kDispFeatureDevice = "/dev/mi_display/disp_feature";
 // sensor: xiaomi.sensor.ambientlight.raw
 static const uint32_t kSensorTypeAmbientlightRaw = 33171111;
 
+static const uint32_t kReportValue = 201;
+
 using android::hardware::Return;
 using android::hardware::Void;
 using android::hardware::sensors::V1_0::Event;
@@ -32,7 +34,7 @@ class RawLightSensorCallback : public IEventQueueCallback {
   public:
     Return<void> onEvent(const Event& e) {
         _oem_msg* msg = new _oem_msg;
-        msg->notifyType = REPORT_VALUE;
+        msg->notifyType = kReportValue;
         msg->value = e.u.vec4.y;
         msg->notifyTypeFloat = msg->notifyType;
         msg->unknown1 = 2;
