@@ -15,7 +15,7 @@ struct _oem_msg {
     float unknown2;
     float notifyTypeFloat;
     float value;
-    float unused[64];
+    float unused[58];
 };
 
 typedef void (*init_current_sensors_t)(bool debug);
